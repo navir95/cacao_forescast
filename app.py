@@ -12,7 +12,7 @@ import anthropic
 # CONFIGURACIÓN DE PÁGINA
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="Simulador Cacao · Monte Carlo",
+    page_title="Simulador Cacao",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -22,9 +22,6 @@ st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap');
 
-    html, body, [class*="css"] {
-        font-family: 'Syne', sans-serif;
-    }
     .stApp {
         background: #0d1117;
         color: #e6edf3;
@@ -64,7 +61,6 @@ st.markdown("""
         color: #8b949e;
         margin: 8px 0;
     }
-    h1, h2, h3 { font-family: 'Syne', sans-serif !important; font-weight: 800 !important; }
     .stSlider > div > div { background: #21262d; }
 </style>
 """, unsafe_allow_html=True)
